@@ -698,6 +698,8 @@ header nav .form i {
   border-color: var(--main-color);
 }
 .Skills .testimonials .bullets li:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
