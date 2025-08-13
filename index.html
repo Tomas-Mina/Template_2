@@ -19,6 +19,12 @@
 </head>
 
 <body>
+  <!-- button -->
+  <button class="scroll-up-btn">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <!-- button -->
+
   <!-- Start Header -->
   <header>
     <div class="container">
@@ -488,6 +494,18 @@
     </div>
   </div>
   <!-- End Footer -->
+
+  <!-- Button Action -->
+  <script>
+    const btn = document.querySelector(".scroll-up-btn");
+    btn.addEventListener("click", () => {
+      document.documentElement.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    });
+  </script>
+  <!-- Button Action -->
 </body>
 
 </html>
